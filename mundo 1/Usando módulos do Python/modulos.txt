@@ -1,0 +1,12 @@
+Modulos Python
+
+comandos 
+
+import nomedabiblioteca
+
+exemplos
+import bebida {importa tudo}
+from doce import pudim {importa so o pudim}
+
+
+ 

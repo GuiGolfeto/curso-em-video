@@ -1,0 +1,10 @@
+name = str(input('Qual seu nome completo? '))
+maiusc = name.upper()
+minusc = name.lower()
+dividido = name.split()
+letras = len(''.join(dividido))
+fist = len(dividido[0])
+
+print(f'Seu nome todo em MAIUSCULO fica {maiusc} e em minusculo fica {minusc}')
+print(f'O comprimento do seu nome sem espaços é de {letras}')
+print(f'O comprimento do seu primeiro nome é {fist}')

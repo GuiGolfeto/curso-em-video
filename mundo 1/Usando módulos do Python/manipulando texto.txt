@@ -1,0 +1,68 @@
+Manipulando texto
+
+frase = 'Curso em Video Python'
+
+- Fatiamento 
+frase [9] // pega o caractere 9
+V 
+frase [9:13] //caracter 9 ao 13(conta valida ate o 12)
+Vide
+
+frase [9:21:2] //pula de dois em dois
+VdoPto
+
+frase [:5] //igual a escrever 0:5
+curso
+
+frase [15:] // do 15 ate o final
+python
+
+frase [9::3] //vai começar no 9 vai ate o final e pula 3
+VePh
+
+
+- Analise
+len(frase) // comprimento
+21
+
+frase.count('o') // quantas vezes apareco a letra 'o'
+3
+
+frase.count('o', 0, 13) //mostra o count normal porem com fatiamento
+1
+
+frase.find('deo') //onde encontrou 'deo'
+11
+
+frase.find('Android') // erro 
+-1
+
+'Curso' in frase // se existe a palavra 'Curso em frase
+True
+
+
+- Transformação
+frase.replace('Python', 'Android') //substitui 'Python' por 'Android'
+
+frase.upper() //fica em maiusculo 
+
+frase.lower() //fica em minusculo
+
+frase.capitalize() //joga tudo pra minusculo e só coloca a primeira letra da frase toda em maiusculo
+
+frase.title() //joga tudo pra minusculo e só coloca a primeira letra de cada palavra toda em maiusculo
+
+frase.strip() // remove todos espaços inuteis na frase 
+
+frase.rstrip() // remove espaços inusteis da direita 
+
+frase.lstrip() // remove espaços da esquerda
+
+
+- Divisão
+frase.split() // cria divisão onde tem espaços (recomeça a contagem de espaços a cada palavra da frase) criando uma lista para cada palvra
+
+- Junção
+'-'.joins(frase) // diferente do split ele junta as palvras com o caratere ou espaço em branco citado no ''
+
+

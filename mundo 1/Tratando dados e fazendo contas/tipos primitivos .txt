@@ -1,0 +1,8 @@
+int() ex: 7 -4 0 9875
+float() ex: 4.5 0.076 -15.223 7.0 
+bool() ex: True False
+str() ex: 'olá' '7.5' ''
+
+print('a soma vale{}'.format(variavel))
+
+type() mostra o tipo de classe
